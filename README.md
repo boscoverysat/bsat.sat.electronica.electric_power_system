@@ -12,6 +12,18 @@ Este repositorio contiene el circuito electrónico y el diseño de placa de circ
 
 El actual diseño electrónico se ha llevado a cabo mediante el software **KiCAD**.
 
+## Notas del repositorio
+
+Para el correcto funcionamiento del contenido de este repositorio, es necesario, una vez obtenido el mismo, clonar el repositorio con las librerías de componentes creados específicamente para el proyecto.
+
+```sh
+$ git clone https://github.com/boscoverysat/bsat.sat.electronica.onboard_computer.git
+$ cd bsat.sat.electronica.onboard_computer
+$ git clone https://github.com/boscoverysat/bsat.sat.electronica.librerias.git lib
+```
+
+Una vez hecho esto, al abrir el proyecto con KiCAD, deberemos importar las librerías que acabamos de descargar.
+
 ## Contenido de la Shield
 
 La PCB cuanta con unas dimensiones de 77 x 77 mm, realizada en base de fibra de vidrio y doble capa de cobre, disponiendo de cuatro orificios de fijación, para el chasis del satélite, ubicados en las esquinas de la placa.
